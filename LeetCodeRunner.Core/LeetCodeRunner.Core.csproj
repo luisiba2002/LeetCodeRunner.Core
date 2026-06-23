@@ -1,9 +1,40 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<PackageId>LeetCodeRunner.Core</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Luis Ibañez Garcia</Authors>
+		<RepositoryUrl>https://github.com/luisiba2002/LeetCodeRunner.Core</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
 
+	<PropertyGroup>
+		<Description>
+			Reusable data structures and helpers for solving LeetCode problems.
+		</Description>
+
+		<PackageTags>
+			leetcode;algorithms;trees;linkedlist
+		</PackageTags>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageIcon>icon.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="icon.png"
+				Pack="true"
+				PackagePath="\" />
+		
+		<None Include="README.md"
+			  Pack="true"
+			  PackagePath="\" />
+	</ItemGroup>
 </Project>
